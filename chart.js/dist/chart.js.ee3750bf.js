@@ -1117,14 +1117,14 @@ new (0, _autoDefault.default)(document.getElementById('temperatureChart'), {
         labels,
         datasets: [
             {
-                label: 'Sensor 1',
+                label: 'Lokasi 1',
                 data: temperature1,
                 borderColor: 'red',
                 backgroundColor: 'red',
                 tension: 0.3
             },
             {
-                label: 'Sensor 2',
+                label: 'Lokasi 2',
                 data: temperature2,
                 borderColor: 'blue',
                 backgroundColor: 'blue',
@@ -1151,14 +1151,14 @@ new (0, _autoDefault.default)(document.getElementById('humidityChart'), {
         labels,
         datasets: [
             {
-                label: 'Sensor 1',
+                label: 'Lokasi 1',
                 data: humidity1,
                 borderColor: 'green',
                 backgroundColor: 'green',
                 tension: 0.3
             },
             {
-                label: 'Sensor 2',
+                label: 'Lokasi 2',
                 data: humidity2,
                 borderColor: 'orange',
                 backgroundColor: 'orange',
@@ -1185,14 +1185,14 @@ new (0, _autoDefault.default)(document.getElementById('pressureChart'), {
         labels,
         datasets: [
             {
-                label: 'Sensor 1',
+                label: 'Lokasi 1',
                 data: pressure1,
                 borderColor: 'purple',
                 backgroundColor: 'purple',
                 tension: 0.3
             },
             {
-                label: 'Sensor 2',
+                label: 'Lokasi 2',
                 data: pressure2,
                 borderColor: 'brown',
                 backgroundColor: 'brown',
